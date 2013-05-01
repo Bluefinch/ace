@@ -14,7 +14,6 @@
 
 .ace-glarkio .ace_text-layer {
   color: #F8F8F2
-  /* color: #bdc3c7 */
 }
 
 .ace-glarkio .ace_cursor {
@@ -64,9 +63,6 @@
 .ace-glarkio .ace_keyword,
 .ace-glarkio .ace_meta,
 .ace-glarkio .ace_storage {
-  /* color: #F92672 */
-  /* color: #e74c3c   */
-  /* color: #27ae60; */
   color: #ff7567  
 }
 
@@ -74,7 +70,6 @@
 .ace-glarkio .ace_constant.ace_language,
 .ace-glarkio .ace_constant.ace_numeric,
 .ace-glarkio .ace_constant.ace_other {
-  /* color: #9b59b6 */
   color: #c782e4
 }
 
@@ -103,31 +98,25 @@
 .ace-glarkio .ace_support.ace_class,
 .ace-glarkio .ace_support.ace_type {
   font-style: italic;
-  /* color: #66D9EF */
   color: #61b8f3
 }
 
 .ace-glarkio .ace_entity.ace_name.ace_function,
 .ace-glarkio .ace_entity.ace_other,
 .ace-glarkio .ace_variable {
-  /* color: #A6E22E */
   color: #1abc9c
 }
 
 .ace-glarkio .ace_variable.ace_parameter {
   font-style: italic;
-  /* color: #e67e22 */
   color: #ff9232 
 }
 
 .ace-glarkio .ace_string {
-  /* color: #E6DB74 */
-  /* color: #2ecc71 */
   color: #5bdd92
 }
 
 .ace-glarkio .ace_comment {
-  /* color: #75715E */
   color: #95a5a6
 }
 
