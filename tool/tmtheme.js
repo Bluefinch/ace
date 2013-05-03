@@ -248,7 +248,7 @@ var themes = {
     "solarized_dark": "Solarized-dark",
     "solarized_light": "Solarized-light",
     //"textmate": "Textmate (Mac Classic)",
-    "terminal": "Terminal"
+    // "terminal": "Terminal",
     "tomorrow": "Tomorrow",
     "tomorrow_night": "Tomorrow-Night",
     "tomorrow_night_blue": "Tomorrow-Night-Blue",
@@ -257,6 +257,7 @@ var themes = {
     "twilight": "Twilight",
     "vibrant_ink": "Vibrant Ink",
     //"xcode": "Xcode_default"
+    "toy_chest": "Toy-Chest"
 };
 
 function convertTheme(name) {

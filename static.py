@@ -209,7 +209,7 @@ def command():
         if not host:
             host = '0.0.0.0'
         if not port:
-            port = 8888
+            port = 3000
         try:
             port = int(port)
         except:
@@ -230,8 +230,8 @@ def test():
     from wsgiref.validate import validator
     app = Cling(getcwd())
     try:
-        print "Serving " + getcwd() + " to http://localhost:8888"
-        make_server('0.0.0.0', 8888, validator(app)).serve_forever()
+        print "Serving " + getcwd() + " to http://localhost:3000"
+        make_server('0.0.0.0', 3000, validator(app)).serve_forever()
     except KeyboardInterrupt, ki:
         print ""
         print "Ciao, baby!"
