@@ -36,13 +36,13 @@
         // set the editor mode. Webmasters could use it in their scripts
         // for site specific purposes as well.
         var filePath = 'blahblah/weee/some.js';
-        var mode = modelist.getModeFromPath(filePath).mode;
+        var mode = modelist.getModeForPath(filePath).mode;
         console.log(mode);
         editor.session.setMode(mode);
     }());
     
 </script>
 
-<script src="./demo_helper.js"></script>
+<script src="./show_own_source.js"></script>
 </body>
 </html>

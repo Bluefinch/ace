@@ -6,6 +6,7 @@ tags
 
 # Project files that should not be in the repo
 .*
+\#*
 !/.gitignore
 .*.gz
 *.tmTheme.js
